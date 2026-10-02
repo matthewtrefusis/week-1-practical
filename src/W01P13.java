@@ -16,7 +16,6 @@ public class W01P13 {
         int r2 = Integer.parseInt(inputs[5]);
 
         double time = (d1 / s1) + (r1 / 60.0) + (d2 / s2) + (r2 / 60.0);
-        System.out.println(time);
         double avgSpeed = (d1 + d2) / time;
         int hours = (int)Math.floor(time);
         int mins = (int)Math.round((time - hours) * 60);
