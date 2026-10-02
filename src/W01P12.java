@@ -14,7 +14,7 @@ public class W01P12 {
         double wasteRate = Double.parseDouble(inputs[3]);
         double pricePerTile = Double.parseDouble(inputs[4]);
 
-        int numTiles = (int)Math.ceil(((hallLength * hallWidth) / (tileSide * tileSide)) * ( 1 + wasteRate));
+        int numTiles = (int)Math.round(((hallLength * hallWidth) / (tileSide * tileSide)) * ( 1 + wasteRate));
         double cost = numTiles * pricePerTile;
 
         System.out.printf("Tiles to buy: %d\n", numTiles);
