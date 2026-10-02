@@ -18,7 +18,7 @@ public class W01P12 {
         double cost = numTiles * pricePerTile;
 
         System.out.printf("Tiles to buy: %d\n", numTiles);
-        System.out.printf("Totals cost: £%.2f", cost);
+        System.out.printf("Total cost: £%.2f", cost);
 
         scanner.close();
     }
